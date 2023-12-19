@@ -1,5 +1,6 @@
 import { FaHamburger, FaMoon } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 import { navLinks } from "../constants";
 import { useState } from "react";
@@ -14,10 +15,11 @@ const Nav = () => {
   return (
     <header className="fixed top-0 left-0 z-10 py-8 w-full">
       <nav className="container relative h-14 flex justify-between items-center">
-        <div className="text-2xl">
-          <a href="/" className="uppercase">
-            Bur
-            <span className="text-secondaryColor font-oswald"> ger</span>
+        <div className="text-2xl font-oswald">
+          <a href="/" className="uppercase leading-normal">
+            B{" "}
+            <FaHamburger className="inline-block text-secondaryColor text-2xl align-baseline" />{" "}
+            rger
           </a>
         </div>
         <div
@@ -52,10 +54,9 @@ const Nav = () => {
             }`}
           />
         </div>
-
         <div className="flex items-center gap-5 ml-4 text-xl cursor-pointer">
           <FaMoon />
-          <FaHamburger className="md:hidden" onClick={handleOpenClick} />
+          <GiHamburgerMenu className="md:hidden" onClick={handleOpenClick} />
         </div>
       </nav>
     </header>
