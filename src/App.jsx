@@ -1,8 +1,10 @@
-import React from "react";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
-    <h1 className="text-4xl bg-red-700 text-white py-4 w-96">Burger APp</h1>
+    <>
+      <Nav />
+    </>
   );
 };
 
