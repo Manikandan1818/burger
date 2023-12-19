@@ -1,4 +1,4 @@
-import about from "./about.jpeg";
+import about from "./about.jpg";
 import homeImage from "./home-image.png";
 
 import beverage1 from "./beverage-1.png";

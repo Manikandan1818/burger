@@ -13,10 +13,10 @@ const Nav = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 z-10 py-8 w-full">
+    <header className="fixed bg-primaryColor top-0 left-0 z-10 w-full">
       <nav className="container relative h-14 flex justify-between items-center">
-        <div className="text-2xl font-oswald">
-          <a href="/" className="uppercase leading-normal">
+        <div className="text-2xl">
+          <a href="/" className="font-oswald uppercase leading-normal">
             B{" "}
             <FaHamburger className="inline-block text-secondaryColor text-2xl align-baseline" />{" "}
             rger
@@ -50,7 +50,7 @@ const Nav = () => {
             className={`${
               open
                 ? `md:hidden`
-                : `absolute top-[-0.7rem] right-4 text-2xl cursor-pointer hover:text-secondaryColor`
+                : `absolute top-[0.7rem] right-4 text-2xl cursor-pointer hover:text-secondaryColor`
             }`}
           />
         </div>
