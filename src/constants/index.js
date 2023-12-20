@@ -1,4 +1,4 @@
-import { beverage1, burger1, snack1 } from "../assets/images";
+import { beverage1, burger1, promo1, promo2, snack1 } from "../assets/images";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -26,5 +26,18 @@ export const categories = [
     title: "Beverage",
     text: "Our signature mango thick shake.",
     bgColor: "bg-greenColor",
+  },
+];
+
+export const promos = [
+  {
+    imgURL: promo1,
+    title: "Get a 10% Discount on Payday week",
+    text: "Double up our best selling crispy veg Burger.",
+  },
+  {
+    imgURL: promo2,
+    title: "FRIENDS and Family Combo(Save upto 20%)",
+    text: "Save Rs 99 Chicken Wopper + Mid Fries + Pepsi",
   },
 ];

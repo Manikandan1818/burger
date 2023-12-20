@@ -13,9 +13,7 @@ const CategoryCard = ({ imgURL, title, text, bgColor }) => {
         />
       </div>
       <div className="flex-col">
-        <h3 className="mb-2 font-oswald font-bold uppercase text-xl">
-          {title}
-        </h3>
+        <h3 className="title">{title}</h3>
         <p className="text-sm mb-1">{text}</p>
         <Button label="Buy Online" online />
       </div>

@@ -9,7 +9,7 @@ const Hero = () => {
     <section id="home">
       <div className="container flex flex-col items-center gap-10 md:flex-row">
         <div className="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
-          <img src={homeImage} alt="image" className="w-60 md:w-full" />
+          <img src={homeImage} alt="image" className="w-60 md:w-72" />
         </div>
         <div className="text-center md:basis-1/2 lg:basis-3/5 md:text-start">
           <h1 className="app-title">

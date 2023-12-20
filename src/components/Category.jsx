@@ -6,7 +6,7 @@ const Category = () => {
   return (
     <section
       id="category"
-      className="container flex flex-col gap-5 md:flex-row"
+      className="container flex flex-col gap-6 md:flex-row"
     >
       {categories.map((item) => (
         <CategoryCard key={item.title} {...item} />

@@ -7,7 +7,7 @@ const Button = ({ label, online }) => {
           : `inline-block text-sm py-3 px-8 capitalize text-center cursor-pointer rounded-full ease-linear duration-200 text-black bg-secondaryColor hover:opacity-75`
       }`}
     >
-      {label}
+      <a href="#">{label}</a>
     </div>
   );
 };

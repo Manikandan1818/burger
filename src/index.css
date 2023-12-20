@@ -23,13 +23,21 @@
 }
 
 @layer utilities {
-  .app-title {
+  .app-title,
+  .sec-title {
     @apply text-4xl font-oswald font-bold uppercase lg:text-6xl;
+  }
+
+  .sec-title {
+    @apply text-3xl;
   }
   .seperator {
     @apply w-28 h-[2px] bg-secondaryColor my-5;
   }
   .para {
     @apply text-white text-xs leading-5;
+  }
+  .title {
+    @apply mb-2 font-oswald font-bold uppercase text-xl;
   }
 }
