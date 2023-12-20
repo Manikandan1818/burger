@@ -28,7 +28,6 @@ const Nav = () => {
               ? `sm:hidden md:block static py-0 border-none w-auto ml-auto`
               : `absolute top-0 left-0 w-full py-14 bg-primaryColor border-b border-secondaryColor`
           }`}
-          onClick={!open && handleOpenClick}
         >
           <ul
             className={`${
@@ -41,12 +40,14 @@ const Nav = () => {
               <li
                 key={item.label}
                 className="hover:text-secondaryColor ease-in duration-100"
+                onClick={!open && handleOpenClick}
               >
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}
           </ul>
           <IoClose
+            onClick={!open && handleOpenClick}
             className={`${
               open
                 ? `md:hidden`
