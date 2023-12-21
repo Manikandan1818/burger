@@ -22,10 +22,10 @@ const About = () => {
           what has defined our brand for more that 50 years.
         </p>
         <ul className="grid grid-cols-2 py-5 space-y-1 text-xs text-white">
-          <li>Best Price</li>
-          <li>Fresh Ingredients</li>
-          <li>Signature Receipes</li>
-          <li>Best Service</li>
+          <li className="py-0.5">Best Price</li>
+          <li className="py-0.5">Fresh Ingredients</li>
+          <li className="py-0.5">Signature Receipes</li>
+          <li className="py-0.5">Best Service</li>
         </ul>
         <Button label="About Us" />
       </div>
