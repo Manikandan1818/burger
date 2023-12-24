@@ -4,9 +4,11 @@ import MenuButton from "./MenuButton";
 
 const Menu = () => {
   const [selectedMenu, setSelectedMenu] = useState("");
+  const [color, setColor] = useState("");
 
   const handleClick = (e) => {
     setSelectedMenu(e.target.value);
+    setColor("active");
   };
 
   const filteredData = (menu, selectedMenu) => {
@@ -34,10 +36,10 @@ const Menu = () => {
         signature recipes, and end-to-end online Burger.
       </p>
       <div className="mt-8 mb-8 flex flex-wrap justify-center gap-5">
-        <MenuButton value="All" handleClick={handleClick} />
-        <MenuButton value="Food" handleClick={handleClick} />
-        <MenuButton value="Snacks" handleClick={handleClick} />
-        <MenuButton value="Beverage" handleClick={handleClick} />
+        <MenuButton handleClick={handleClick} value="All" />
+        <MenuButton handleClick={handleClick} value="Food" />
+        <MenuButton handleClick={handleClick} value="Snacks" />
+        <MenuButton handleClick={handleClick} value="Beverage" />
       </div>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 md:gap-10">
         {result.map((item) => (
