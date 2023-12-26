@@ -1,4 +1,6 @@
 import { about } from "../assets/images";
+import { IoMdCheckmark } from "react-icons/io";
+
 import Button from "./Button";
 
 const About = () => {
@@ -22,10 +24,30 @@ const About = () => {
           what has defined our brand for more that 50 years.
         </p>
         <ul className="grid grid-cols-2 py-5 space-y-1 text-xs text-white">
-          <li className="py-0.5">Best Price</li>
-          <li className="py-0.5">Fresh Ingredients</li>
-          <li className="py-0.5">Signature Receipes</li>
-          <li className="py-0.5">Best Service</li>
+          <li className="py-0.5">
+            <span className="text-secondaryColor">
+              <IoMdCheckmark className="inline-block text-lg" />
+            </span>{" "}
+            Best Price
+          </li>
+          <li className="py-0.5">
+            <span className="text-secondaryColor">
+              <IoMdCheckmark className="inline-block text-lg" />
+            </span>{" "}
+            Fresh Ingredients
+          </li>
+          <li className="py-0.5">
+            <span className="text-secondaryColor">
+              <IoMdCheckmark className="inline-block text-lg" />
+            </span>{" "}
+            Signature Receipes
+          </li>
+          <li className="py-0.5">
+            <span className="text-secondaryColor">
+              <IoMdCheckmark className="inline-block text-lg" />
+            </span>{" "}
+            Best Service
+          </li>
         </ul>
         <Button label="About Us" />
       </div>
