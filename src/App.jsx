@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Category from "./components/Category";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Nav from "./components/Nav";
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <Menu />
       <Review />
+      <Contact />
     </>
   );
 };

@@ -36,7 +36,7 @@ const Review = () => {
   };
 
   return (
-    <section id="menu" className="container bg-primaryColorLight">
+    <section id="menu" className="container bg-primaryColorLight mb-10">
       <div className="max-w-md mx-auto text-center">
         <h2 className="sec-title">Customer Review</h2>
         <div className="seperator mx-auto"></div>
