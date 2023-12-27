@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Category from "./components/Category";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Nav from "./components/Nav";
@@ -18,6 +19,7 @@ const App = () => {
       <Menu />
       <Review />
       <Contact />
+      <Footer />
     </>
   );
 };
