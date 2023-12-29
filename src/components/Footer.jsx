@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section id="footer" className="container">
       <div>
-        <ul className="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2">
+        <ul className="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2 lg:grid-cols-4">
           <li className="space-y-3">
             <a href="" className="text-4xl font-oswald uppercase">
               B<span className="text-secondaryColor">ur</span>ger
@@ -66,16 +66,19 @@ const Footer = () => {
           <li>
             <div class="space-y-2">
               <h3 class="text-lg uppercase font-oswald">Follow us</h3>
-
               <p class="space-x-3 flex items-center gap-1">
-                <FaFacebook className="text-lg text-secondaryColor" />
-                <FaTwitter className="text-lg text-secondaryColor" />
-                <FaInstagram className="text-lg text-secondaryColor" />
-                <FaWhatsapp className="text-lg text-secondaryColor" />
+                <FaFacebook className="text-lg text-secondaryColor cursor-pointer hover:-translate-y-1 ease-in duration-200" />
+                <FaTwitter className="text-lg text-secondaryColor cursor-pointer hover:-translate-y-1 ease-in duration-200" />
+                <FaInstagram className="text-lg text-secondaryColor cursor-pointer hover:-translate-y-1 ease-in duration-200" />
+                <FaWhatsapp className="text-lg text-secondaryColor cursor-pointer hover:-translate-y-1 ease-in duration-200" />
               </p>
             </div>
           </li>
         </ul>
+        <div className="flex flex-col items-center border-t border-primaryColorLight md:flex-row justify-between py-5">
+          <p className="para">Burger Template developed by Manikandan</p>
+          <p className="para">Copyright © 2024. All rights Reserved </p>
+        </div>
       </div>
     </section>
   );
