@@ -7,6 +7,7 @@ import Menu from "./components/Menu";
 import Nav from "./components/Nav";
 import Promo from "./components/Promo";
 import Review from "./components/Review";
+import Scroll from "./components/Scroll";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Review />
       <Contact />
       <Footer />
+      <Scroll />
     </>
   );
 };
