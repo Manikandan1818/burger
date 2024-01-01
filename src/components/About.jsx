@@ -5,7 +5,10 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section id="about" className="container flex flex-col gap-10 md:flex-row">
+    <section
+      id="about-us"
+      className="container flex flex-col gap-10 md:flex-row"
+    >
       <div className="flex-1">
         <img src={about} alt="about" className="rounded-lg" />
       </div>

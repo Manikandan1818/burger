@@ -1,5 +1,7 @@
-import { FaHamburger, FaMoon, FaSun } from "react-icons/fa";
+import { FaHamburger } from "react-icons/fa";
+import { IoMdMoon, IoMdSunny } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { navLinks } from "../constants";
@@ -88,7 +90,7 @@ const Nav = () => {
         </div>
         <div className="flex items-center gap-5 ml-4 text-xl cursor-pointer">
           <button onClick={handleTheme}>
-            {theme === "dark" ? <FaSun /> : <FaMoon />}
+            {theme === "dark" ? <IoMdSunny /> : <IoMdMoon />}
           </button>
           <GiHamburgerMenu className="md:hidden" onClick={handleOpenClick} />
         </div>

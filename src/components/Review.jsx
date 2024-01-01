@@ -37,7 +37,7 @@ const Review = () => {
 
   return (
     <section
-      id="menu"
+      id="review"
       className="container bg-primaryColorLight dark:bg-darkColorLight mb-10"
     >
       <div className="max-w-md mx-auto text-center">

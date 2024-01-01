@@ -11,18 +11,20 @@ import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section id="footer" className="container">
+    <section id="contact-us" className="container">
       <div>
         <ul className="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2 lg:grid-cols-4">
           <li className="space-y-3">
             <a href="" className="text-4xl font-oswald uppercase">
               B<span className="text-secondaryColor">ur</span>ger
             </a>
-            <p className="text-xs">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              iusto excepturi optio magnam velit repellat maiores, quis deserunt
-              tempora. Labore dolorum doloremque delectus debitis cum nesciunt
-              velit minus suscipit tempore?
+            <p className="text-xs text-justify">
+              We know you’re obviously a fan of desi flavours and have your
+              heart set on it. Your search for the best Indian fusion burgers
+              ends here. With the taste of India in every bite, we have
+              thoughtfully curated our menu to serve the Indian palette.
+              Bursting with flavours, our wide range of burgers will always make
+              you crave for more.
             </p>
           </li>
           <li>
