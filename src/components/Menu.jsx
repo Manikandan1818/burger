@@ -44,7 +44,7 @@ const Menu = () => {
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 md:gap-10">
         {result.map((item) => (
           <div key={item.id}>
-            <div className="h-56 grid place-items-center rounded-3xl bg-primaryColorLight dark:bg-darkColorLight hover:bg-secondaryColor ease-linear duration-200 lg:h-40">
+            <div className="h-56 grid place-items-center rounded-3xl bg-primaryColorLight dark:bg-darkColorLight hover:bg-secondaryColor hover:dark:bg-secondaryColor ease-linear duration-200 lg:h-40">
               <img
                 src={item.img}
                 alt="menu"
