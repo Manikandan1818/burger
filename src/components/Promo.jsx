@@ -9,7 +9,7 @@ const Promo = () => {
       {promos.map((promo) => (
         <div
           key={promo.title}
-          className="bg-primaryColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1"
+          className="bg-primaryColorLight dark:bg-darkColorLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1"
         >
           <img
             src={promo.imgURL}

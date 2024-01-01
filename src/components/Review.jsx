@@ -36,7 +36,10 @@ const Review = () => {
   };
 
   return (
-    <section id="menu" className="container bg-primaryColorLight mb-10">
+    <section
+      id="menu"
+      className="container bg-primaryColorLight dark:bg-darkColorLight mb-10"
+    >
       <div className="max-w-md mx-auto text-center">
         <h2 className="sec-title">Customer Review</h2>
         <div className="seperator mx-auto"></div>
@@ -46,7 +49,7 @@ const Review = () => {
         </p>
       </div>
       <div>
-        <div className="flex flex-col gap-5 rounded-lg p-6 bg-primaryColor mt-10">
+        <div className="flex flex-col gap-5 rounded-lg p-6 bg-primaryColor dark:bg-darkColorLight mt-10">
           <p className="para">{review[currentIndex].desc}</p>
           <div className="flex items-center">
             <button
