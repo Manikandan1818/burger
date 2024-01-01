@@ -38,6 +38,9 @@ const Nav = () => {
     setTheme(theme === "dark" ? "light" : "dark");
     if (localStorage.getItem("mode") === "dark") {
       localStorage.setItem("mode", "light");
+    } else {
+      localStorage.getItem("mode") === "light";
+      localStorage.setItem("mode", "dark");
     }
   };
 
